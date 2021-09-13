@@ -13,7 +13,7 @@ export default {
 <style>
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 0;
 }
 

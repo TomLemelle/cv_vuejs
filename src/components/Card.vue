@@ -10,6 +10,7 @@
               <span>{{address}}</span>
           </div>
           <p class="description">{{desc}}</p>
+          <p class="stack">{{stack}}</p>
       </li>
   </ul>
 </template>
@@ -22,6 +23,7 @@ export default {
         company: String,
         address: String,
         desc: String,
+        stack: String,
     }
 }
 </script>
@@ -51,9 +53,10 @@ export default {
             p {color: #03bcff;}
             span {color: #444444;}
         }
-        .description {
+        .description, .stack {
             color: #444444;
         }
+        .description { padding-bottom: 2px;}
     }
 }
 

@@ -28,7 +28,6 @@ export default {
   height: auto;
   margin: 0 auto;
   display: flex;
-  border: 1px solid black;
 }
 
 p {
