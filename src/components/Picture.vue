@@ -25,6 +25,8 @@ export default {
 .picture {
     width: 50%;
     margin: 30px auto;
+    display: flex;
+    justify-content: center;
 
     img {
         width: 100%;
