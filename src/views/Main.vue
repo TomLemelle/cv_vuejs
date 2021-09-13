@@ -1,12 +1,20 @@
 <template>
-  <section class="main">
-      <p>ouais</p>
-  </section>
+  <main class="main">
+      <Baseline />
+      <TitleMain title="Diplômes et Formations" />
+  </main>
 </template>
 
 <script>
-export default {
 
+import Baseline from "@/components/Baseline";
+import TitleMain from "@/components/TitleMain";
+
+export default {
+  components: {
+    Baseline,
+    TitleMain,
+  }
 }
 </script>
 
@@ -15,6 +23,7 @@ export default {
 .main {
     background-color: #ffffff;
     flex: 1;
+    margin: 0 60px;
 }
 
 </style>
