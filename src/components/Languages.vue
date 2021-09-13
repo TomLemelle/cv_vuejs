@@ -1,6 +1,6 @@
 <template>
     <section class="languages">
-        <TitleSidebar img="language.png" imgDesc="languages" />
+        <TitleSidebar img="language.png" imgDesc="languages" quality="Langues" />
         <ul class="languages-list">
             <li>
                 <strong>Français</strong>
@@ -33,7 +33,7 @@ export default {
 
     .languages-list {
         list-style: none;
-        font-size: 19px;
+        font-size: 18px;
 
         li {
             margin: 30px 0;

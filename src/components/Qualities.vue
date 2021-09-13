@@ -1,6 +1,6 @@
 <template>
     <section class="qualities">
-        <TitleSidebar img="trophy.png" imgDesc="qualités" />
+        <TitleSidebar img="trophy.png" imgDesc="qualités" quality="Qualités" />
         <ul class="quality-list">
             <li>Polyvalent</li>
             <li>Motivé</li>
@@ -26,11 +26,15 @@ export default {
 
     .quality-list {
         list-style: none;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: bold;
 
         li {
             margin: 30px 0;
+        }
+
+        li:first-of-type {
+            margin-top: -15px;
         }
     }
 }

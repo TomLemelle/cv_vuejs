@@ -1,7 +1,7 @@
 <template>
   <section class="titleSidebar">
     <img :src="require(`@/assets/${img}`)"  :alt="{imgDesc}">
-    <h3>Qualités</h3>
+    <h3>{{quality}}</h3>
   </section>
   
 </template>
@@ -11,6 +11,7 @@ export default {
     props: {
         img: String,
         imgDesc: String,
+        quality: String,
     }
 }
 </script>
