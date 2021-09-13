@@ -19,7 +19,7 @@ export default {
 
 i {
 
-    color: rgb(48, 47, 47);
+    color: #555555;
     display: block;
     font-size: 18px;
 }

@@ -2,6 +2,7 @@
   <main class="main">
       <Baseline />
       <TitleMain title="Diplômes et Formations" />
+      <Diploma />
   </main>
 </template>
 
@@ -9,11 +10,13 @@
 
 import Baseline from "@/components/Baseline";
 import TitleMain from "@/components/TitleMain";
+import Diploma from "@/components/Diploma";
 
 export default {
   components: {
     Baseline,
     TitleMain,
+    Diploma,
   }
 }
 </script>
